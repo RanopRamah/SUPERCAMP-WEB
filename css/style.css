@@ -1,0 +1,81 @@
+    /* Header */
+    
+    .jumbo {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url('../assets/1.jpg');
+        height: 90vh;
+        margin-top: -200px;
+        background-size: cover;
+        background-position-y: -2px;
+        background-position-x: -120px;
+    }
+    
+    .navbar-brand {
+        font-size: 24px;
+    }
+    
+    .nav-link {
+        font-weight: 600;
+        font-size: 16px;
+        margin-left: 20px;
+    }
+    
+    .header-content {
+        margin-top: 250px;
+    }
+    
+    .header-title {
+        font-size: 40px;
+        font-weight: bold;
+    }
+    
+    .read {
+        font-family: 'Poppins', sans-serif;
+        text-transform: none;
+        font-weight: 600;
+    }
+    /* End Header */
+    /* About */
+    
+    .accordion-first {
+        font-weight: 600;
+        font-size: 20px;
+    }
+    
+    .image-lulusan {
+        display: none;
+    }
+    /* End About */
+    /* Program */
+    
+    .unggulan {
+        display: block;
+    }
+    /* End Program */
+    
+    @media (min-width: 992px) {
+        /* Header */
+        .jumbo {
+            background-position-x: 0px;
+            margin-top: -90px;
+            height: 100vh;
+        }
+        .header-content {
+            margin-left: 150px;
+            margin-top: 170px;
+        }
+        .header-title {
+            font-size: 70px;
+            font-weight: bold;
+        }
+        /* End Header */
+        /* About */
+        .image-lulusan {
+            display: contents;
+        }
+        /* End About */
+        /* Program */
+        .unggulan {
+            display: flex;
+        }
+        /* End Program */
+    }
