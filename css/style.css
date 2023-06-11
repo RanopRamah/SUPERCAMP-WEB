@@ -1,4 +1,4 @@
-    body::-webkit-scrollbar {
+    *::-webkit-scrollbar {
         display: none;
     }
     /* Header */
@@ -6,7 +6,7 @@
     .jumbo {
         background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url('../assets/1.jpg');
         height: 90vh;
-        margin-top: -200px;
+        margin-top: -240px;
         background-size: cover;
         background-position-y: -2px;
         background-position-x: -120px;
@@ -50,12 +50,346 @@
     /* End About */
     /* Program */
     
-    .unggulan {
-        display: block;
+    .bordpProg1 {
+        padding-top: 40px;
+        width: 300px;
+        height: 250px;
+        border: none;
+        border-radius: 40px;
+        background-color: rgb(238, 94, 55);
+        box-shadow: 5px 5px 5px 1px rgba(241, 127, 95, 0.75);
+        -webkit-box-shadow: 5px 5px 5px 1px rgba(241, 127, 95, 0.75);
+        -moz-box-shadow: 5px 5px 5px 1px rgba(225, 140, 117, 0.75);
+    }
+    
+    .bordpProg2 {
+        padding-top: 40px;
+        width: 300px;
+        height: 250px;
+        border: none;
+        border-radius: 40px;
+        background-color: rgb(27, 59, 238);
+        box-shadow: 5px 5px 5px 1px rgba(82, 104, 234, 0.75);
+        -webkit-box-shadow: 5px 5px 5px 1px rgba(82, 104, 234, 0.75);
+        -moz-box-shadow: 5px 5px 5px 1px rgba(82, 104, 234, 0.75);
+    }
+    
+    .bordpProg3 {
+        padding-top: 40px;
+        width: 300px;
+        height: 250px;
+        border: none;
+        border-radius: 40px;
+        background-color: rgb(3, 126, 46);
+        box-shadow: 5px 5px 5px 1px rgba(17, 188, 77, 0.75);
+        -webkit-box-shadow: 5px 5px 5px 1px rgba(17, 188, 77, 0.75);
+        -moz-box-shadow: 5px 5px 5px 1px rgba(17, 188, 77, 0.75);
+    }
+    
+    .bordpProg4 {
+        padding-top: 40px;
+        width: 300px;
+        height: 250px;
+        border: none;
+        border-radius: 40px;
+        background-color: rgb(175, 11, 200);
+        box-shadow: 5px 5px 5px 1px rgba(203, 102, 219, 0.75);
+        -webkit-box-shadow: 5px 5px 5px 1px rgba(203, 102, 219, 0.75);
+        -moz-box-shadow: 5px 5px 5px 1px rgba(203, 102, 219, 0.75);
+    }
+    
+    .bordpProg5 {
+        padding-top: 40px;
+        width: 300px;
+        height: 250px;
+        border: none;
+        border-radius: 40px;
+        background-color: rgb(223, 57, 57);
+        box-shadow: 5px 5px 5px 1px rgba(231, 92, 92, 0.75);
+        -webkit-box-shadow: 5px 5px 5px 1px rgba(231, 92, 92, 0.75);
+        -moz-box-shadow: 5px 5px 5px 1px rgba(231, 92, 92, 0.75);
+    }
+    
+    .btn-prog1 {
+        background-color: white;
+        width: 200px;
+        color: rgb(238, 94, 55) !important;
+        font-weight: 600;
+    }
+    
+    .btn-prog2 {
+        background-color: white;
+        width: 200px;
+        color: rgb(27, 59, 238)!important;
+        font-weight: 600;
+    }
+    
+    .btn-prog3 {
+        background-color: white;
+        width: 200px;
+        color: rgb(3, 126, 46) !important;
+        font-weight: 600;
+    }
+    
+    .btn-prog4 {
+        background-color: white;
+        width: 200px;
+        color: rgb(175, 11, 200)!important;
+        font-weight: 600;
+    }
+    
+    .btn-prog5 {
+        background-color: white;
+        width: 200px;
+        color: rgb(223, 57, 57)!important;
+        font-weight: 600;
+    }
+    
+    .btn-prog {
+        background-color: white !important;
+        &:hover {
+            -webkit-animation-name: shake;
+            -webkit-animation-duration: 0.8s;
+            -webkit-animation-iteration-count: infinite;
+            -webkit-animation-timing-function: linear;
+            -webkit-transform-origin: 50% 100%;
+        }
+    }
+    
+    .keunggul {
+        margin-bottom: 30px;
+        height: 350px;
+        padding-top: 50px;
+        border: 1px solid rgb(223, 57, 57);
+        border-radius: 15px;
+        box-shadow: 0px 9px 0px 0px rgba(223, 57, 57, 1);
+        -webkit-box-shadow: 0px 9px 0px 0px rgba(223, 57, 57, 1);
+        -moz-box-shadow: 0px 9px 0px 0px rgba(223, 57, 57, 1);
+    }
+    
+    .accordion-item .accordion-button.collapsed .accordion-icon::before,
+    .accordion-item .accordion-button:not(.collapsed) .accordion-icon::before {
+        color: white !important;
+        /* Ganti warna ikon sesuai kebutuhan Anda */
+    }
+    /* .ingin {
+        font-size: 27px;
+    } */
+    
+    .visi-item {
+        box-shadow: 4px 7px 5px 0px rgba(238, 94, 55, 0.75);
+        -webkit-box-shadow: 4px 7px 5px 0px rgba(238, 94, 55, 0.75);
+        -moz-box-shadow: 4px 7px 5px 0px rgba(238, 94, 55, 0.75);
+        border: none;
+    }
+    
+    .janji-item {
+        box-shadow: 4px 7px 5px 0px rgba(59, 113, 202, 0.75);
+        -webkit-box-shadow: 4px 7px 5px 0px rgba(59, 113, 202, 0.75);
+        -moz-box-shadow: 4px 7px 5px 0px rgba(59, 113, 202, 0.75);
+        border: none;
+    }
+    
+    .filosofi-item {
+        border: none;
+        box-shadow: 4px 7px 5px 0px rgba(17, 188, 77, 0.75);
+        -webkit-box-shadow: 4px 7px 5px 0px rgba(17, 188, 77, 0.75);
+        -moz-box-shadow: 4px 7px 5px 0px rgba(17, 188, 77, 0.75);
+    }
+    
+    .value-item {
+        border: none;
+        box-shadow: 4px 7px 5px 0px rgba(223, 57, 57, 0.75);
+        -webkit-box-shadow: 4px 7px 5px 0px rgba(223, 57, 57, 0.75);
+        -moz-box-shadow: 4px 7px 5px 0px rgba(223, 57, 57, 0.75);
+    }
+    
+    .fasilitas {
+        background-color: rgb(27, 59, 238);
+        box-shadow: 4px 7px 5px 0px rgba(59, 113, 202, 0.75);
+        -webkit-box-shadow: 4px 7px 5px 0px rgba(59, 113, 202, 0.75);
+        -moz-box-shadow: 4px 7px 5px 0px rgba(59, 113, 202, 0.75);
+        border: none;
+    }
+    
+    .alamat {
+        background-color: rgb(3, 126, 46);
+        box-shadow: 5px 5px 5px 1px rgba(17, 188, 77, 0.75);
+        -webkit-box-shadow: 5px 5px 5px 1px rgba(17, 188, 77, 0.75);
+        -moz-box-shadow: 5px 5px 5px 1px rgba(17, 188, 77, 0.75);
+        border: none;
+    }
+    
+    .scroll-container::-webkit-scrollbar {
+        display: none !important;
+    }
+    
+    .scroll-content::-webkit-scrollbar {
+        display: none !important;
+    }
+    
+    .scroll-container {
+        width: 100%;
+        overflow-x: auto;
+    }
+    
+    .scroll-content {
+        white-space: nowrap;
+    }
+    
+    @-webkit-keyframes shake {
+        0% {
+            -webkit-transform: translate(2px, 1px) rotate(0deg);
+        }
+        10% {
+            -webkit-transform: translate(-1px, -2px) rotate(-2deg);
+        }
+        20% {
+            -webkit-transform: translate(-3px, 0px) rotate(3deg);
+        }
+        30% {
+            -webkit-transform: translate(0px, 2px) rotate(0deg);
+        }
+        40% {
+            -webkit-transform: translate(1px, -1px) rotate(1deg);
+        }
+        50% {
+            -webkit-transform: translate(-1px, 2px) rotate(-1deg);
+        }
+        60% {
+            -webkit-transform: translate(-3px, 1px) rotate(0deg);
+        }
+        70% {
+            -webkit-transform: translate(2px, 1px) rotate(-2deg);
+        }
+        80% {
+            -webkit-transform: translate(-1px, -1px) rotate(4deg);
+        }
+        90% {
+            -webkit-transform: translate(2px, 2px) rotate(0deg);
+        }
+        100% {
+            -webkit-transform: translate(1px, -2px) rotate(-1deg);
+        }
     }
     /* End Program */
     
     @media (min-width: 992px) {
+        .bordpProg1 {
+            padding-top: 40px;
+            width: 370px;
+            height: 280px;
+            border: none;
+            border-radius: 40px;
+            background-color: rgb(238, 94, 55);
+            box-shadow: 5px 5px 5px 1px rgba(241, 127, 95, 0.75);
+            -webkit-box-shadow: 5px 5px 5px 1px rgba(241, 127, 95, 0.75);
+            -moz-box-shadow: 5px 5px 5px 1px rgba(225, 140, 117, 0.75);
+        }
+        .bordpProg2 {
+            padding-top: 40px;
+            width: 370px;
+            height: 280px;
+            border: none;
+            border-radius: 40px;
+            background-color: rgb(27, 59, 238);
+            box-shadow: 5px 5px 5px 1px rgba(82, 104, 234, 0.75);
+            -webkit-box-shadow: 5px 5px 5px 1px rgba(82, 104, 234, 0.75);
+            -moz-box-shadow: 5px 5px 5px 1px rgba(82, 104, 234, 0.75);
+        }
+        .bordpProg3 {
+            padding-top: 40px;
+            width: 370px;
+            height: 280px;
+            border: none;
+            border-radius: 40px;
+            background-color: rgb(3, 126, 46);
+            box-shadow: 5px 5px 5px 1px rgba(17, 188, 77, 0.75);
+            -webkit-box-shadow: 5px 5px 5px 1px rgba(17, 188, 77, 0.75);
+            -moz-box-shadow: 5px 5px 5px 1px rgba(17, 188, 77, 0.75);
+        }
+        .bordpProg4 {
+            padding-top: 40px;
+            width: 370px;
+            height: 280px;
+            border: none;
+            border-radius: 40px;
+            background-color: rgb(175, 11, 200);
+            box-shadow: 5px 5px 5px 1px rgba(203, 102, 219, 0.75);
+            -webkit-box-shadow: 5px 5px 5px 1px rgba(203, 102, 219, 0.75);
+            -moz-box-shadow: 5px 5px 5px 1px rgba(203, 102, 219, 0.75);
+        }
+        .bordpProg5 {
+            padding-top: 40px;
+            width: 370px;
+            height: 280px;
+            border: none;
+            border-radius: 40px;
+            background-color: rgb(223, 57, 57);
+            box-shadow: 5px 5px 5px 1px rgba(231, 92, 92, 0.75);
+            -webkit-box-shadow: 5px 5px 5px 1px rgba(231, 92, 92, 0.75);
+            -moz-box-shadow: 5px 5px 5px 1px rgba(231, 92, 92, 0.75);
+        }
+        .keunggul {
+            height: 350px;
+            padding-top: 50px;
+            border: 1px solid rgb(223, 57, 57);
+            border-radius: 35px;
+            box-shadow: 0px 9px 0px 0px rgba(223, 57, 57, 1);
+            -webkit-box-shadow: 0px 9px 0px 0px rgba(223, 57, 57, 1);
+            -moz-box-shadow: 0px 9px 0px 0px rgba(223, 57, 57, 1);
+        }
+        .visi-item {
+            box-shadow: 4px 7px 5px 0px rgba(238, 94, 55, 0.75);
+            -webkit-box-shadow: 4px 7px 5px 0px rgba(238, 94, 55, 0.75);
+            -moz-box-shadow: 4px 7px 5px 0px rgba(238, 94, 55, 0.75);
+            border: none;
+        }
+        .janji-item {
+            box-shadow: 4px 7px 5px 0px rgba(59, 113, 202, 0.75);
+            -webkit-box-shadow: 4px 7px 5px 0px rgba(59, 113, 202, 0.75);
+            -moz-box-shadow: 4px 7px 5px 0px rgba(59, 113, 202, 0.75);
+            border: none;
+        }
+        .filosofi-item {
+            border: none;
+            box-shadow: 4px 7px 5px 0px rgba(17, 188, 77, 0.75);
+            -webkit-box-shadow: 4px 7px 5px 0px rgba(17, 188, 77, 0.75);
+            -moz-box-shadow: 4px 7px 5px 0px rgba(17, 188, 77, 0.75);
+        }
+        .value-item {
+            border: none;
+            box-shadow: 4px 7px 5px 0px rgba(223, 57, 57, 0.75);
+            -webkit-box-shadow: 4px 7px 5px 0px rgba(223, 57, 57, 0.75);
+            -moz-box-shadow: 4px 7px 5px 0px rgba(223, 57, 57, 0.75);
+        }
+        .fasilitas {
+            background-color: rgb(27, 59, 238);
+            box-shadow: 4px 7px 5px 0px rgba(59, 113, 202, 0.75);
+            -webkit-box-shadow: 4px 7px 5px 0px rgba(59, 113, 202, 0.75);
+            -moz-box-shadow: 4px 7px 5px 0px rgba(59, 113, 202, 0.75);
+            border: none;
+        }
+        .alamat {
+            background-color: rgb(3, 126, 46);
+            box-shadow: 5px 5px 5px 1px rgba(17, 188, 77, 0.75);
+            -webkit-box-shadow: 5px 5px 5px 1px rgba(17, 188, 77, 0.75);
+            -moz-box-shadow: 5px 5px 5px 1px rgba(17, 188, 77, 0.75);
+            border: none;
+        }
+        .scroll-container {
+            width: 100%;
+            overflow-x: auto;
+        }
+        .scroll-content {
+            white-space: nowrap;
+        }
+        .gallery::-webkit-scrollbar {
+            display: none !important;
+        }
+        .scroll-container::-webkit-scrollbar {
+            display: none !important;
+        }
         /* Header */
         .jumbo {
             background-position-x: 0px;
@@ -77,8 +411,5 @@
         }
         /* End About */
         /* Program */
-        .unggulan {
-            display: flex;
-        }
         /* End Program */
     }
